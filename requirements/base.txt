@@ -1,0 +1,5 @@
+# Django framework
+Django>=1.9.0,<=1.9.9
+
+# PostgreSQL adaptor
+psycopg2==2.6.1
