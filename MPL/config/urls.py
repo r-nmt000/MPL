@@ -6,6 +6,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 from django.conf.urls import include, url
 from django.contrib import admin
 from apps.accounts import urls as accounts_urls
+from apps.mpl import urls as mpl_urls
 from core import urls as core_urls
 
 urlpatterns = [
@@ -17,4 +18,5 @@ urlpatterns = [
 
     # アプリケーション
     url(r'^accounts/', include(accounts_urls, namespace='accounts')),
+    url(r'^mpl/', include(mpl_urls, namespace='mpl')),
 ]

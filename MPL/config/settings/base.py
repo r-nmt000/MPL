@@ -41,6 +41,7 @@ THIRD_PARTY_APPS = ()
 PROJECT_APPS = (
     'core',
     'apps.accounts',
+    'apps.mpl',
 )
 
 EXTENSION_APPS = ()
