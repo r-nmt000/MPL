@@ -2,5 +2,34 @@
 {% load i18n %}
 
 {% block content %}
-  <h1>{% trans "Moaning Programming Language" %}</h1>
+  <div class="jumbotron">
+    <div class="container">
+      <div class="center-block">
+        <div class="row">
+          <h1>{% trans "Moaning Programming Language" %}</h1>
+          <p>{% trans "You moan, program moan." %}</p>
+          <form class="form-horizontal" action="" method="post">
+            {% csrf_token %}
+            <div class="row">
+              <div class="col-md-3">
+                {{ form.editor }}
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-3 col-sm-9">
+                <button type="submit" class="btn btn-outline btn-lg">Moan</button>
+              </div>
+            </div>
+          </form>
+          <input type="text" value="{{output}}" class="form-control">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <h2>{% trans "What is 'Moaning Programming Language'?" %}</h2>
+      <p>{% trans "Moaning Programing  Language(MPL) is a programming language that you can program moaning with."%}</p>
+    </div>
+  </div>
 {% endblock content %}

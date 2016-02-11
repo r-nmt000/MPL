@@ -7,6 +7,6 @@ from django.conf.urls import url
 from apps.mpl import views
 
 urlpatterns = [
-    url(r'$', views.MPLView.as_view(), name='login')
+    url(r'$', views.MPLView.as_view(), name='main')
 ]
 
