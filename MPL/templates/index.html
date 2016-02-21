@@ -8,7 +8,8 @@
         <div class="row">
           <h1>{% trans "Moaning Programming Language" %}</h1>
           <p>{% trans "You moan, program moan." %}</p>
-          <form class="form-horizontal" action="" method="post">
+          {% url 'mpl:api' %}
+          <form class="form-horizontal" action="" method="get">
             {% csrf_token %}
             <div class="row">
               <div class="col-md-3">
@@ -17,11 +18,11 @@
             </div>
             <div class="form-group">
               <div class="col-sm-offset-3 col-sm-9">
-                <button type="submit" class="btn btn-outline btn-lg">Moan</button>
+                <button id="submit" type="button" class="btn btn-outline btn-lg">Moan</button>
               </div>
             </div>
           </form>
-          <input type="text" value="{{output}}" class="form-control">
+          <input id="output" type="text" value="{{output}}" class="form-control">
         </div>
       </div>
     </div>

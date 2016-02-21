@@ -14,14 +14,6 @@ class CursorUnderflowException(BaseException):
 class Brainfuck(object):
     INITIAL_SIZE = 10000
     DELTA = 1000
-    INCREMENT = 'right'
-    DECREMENT = 'left'
-    INCREMENT_POINTER = 'plus'
-    DECREMENT_POINTER = 'minus'
-    WRITE = 'dot'
-    READ = 'comma'
-    LOOP_START = 'left_brace'
-    LOOP_END = 'right_brace'
 
     INCREMENT = 'yeah!'
     DECREMENT = 'f**k!'
@@ -46,6 +38,7 @@ class Brainfuck(object):
         self._brace_mappings = {}
         self._pointer = 0
         self._cells = [0] * self.INITIAL_SIZE
+        self.output = []
 
     # >
     def _increment(self, _cursor):
@@ -71,7 +64,8 @@ class Brainfuck(object):
     # .
     def _write(self, _cursor):
         c = chr(self._cells[self._pointer])
-        print(c, end='')
+        # print(c, end='')
+        self.output.append(c)
 
     # ,
     def _read(self, _cursor):
@@ -105,6 +99,9 @@ class Brainfuck(object):
                 raise InvalidTokenException(msg)
             index = command(cursor)
             cursor = index if index is not None else cursor + 1
+
+
+        return ''.join(self.output)
 
     def _initialize_brace_mappings(self, code):
         start_brace_positions = []
@@ -146,7 +143,7 @@ def main():
     #         'oh,','oh,','oh,','oh,','oh,','come_on!','yeah!','ah,','come_on!']
     interpreter = Brainfuck()
     try:
-        interpreter.evaluate(code)
+        print(interpreter.evaluate(code))
     except InvalidTokenException as e:
         print(e, file=sys.stderr)
     except CursorUnderflowException as e:
