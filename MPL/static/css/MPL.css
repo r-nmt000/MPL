@@ -25,3 +25,54 @@ body > .container {
     padding-right: 15px;
     padding-left: 15px;
 }
+
+.centering {
+    text-align: center;
+}
+
+.jumbotron {
+    background: #f0f0f0 url("../images/two_women.png") no-repeat fixed 0 50px;
+    background-size: contain;
+    margin-bottom: 0;
+}
+
+#about {
+    background: #f0f0f0 url("../images/woman.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+#title {
+    font-size: 100px;
+    color: #aaaaaa;
+}
+
+#microphone {
+    position: absolute;
+    top: 20%;
+    right: 20px;
+    width: 50px;
+}
+
+#microphone:hover {
+    color: #ac2925;
+}
+
+.big-font {
+    font-size: 100px;
+}
+
+.pink {
+    color: hotpink;
+}
+
+#input {
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+#output {
+    margin-top: 100px;
+
+}
+

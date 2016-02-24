@@ -8,5 +8,10 @@ from django.utils.translation import ugettext_lazy as _
 
 
 class MPLForm(forms.Form):
-    editor = forms.CharField(widget=forms.Textarea(attrs={'id': 'input', 'class': 'form-control', 'placeholder': 'Moan here'}))
+    editor = forms.CharField(widget=forms.Textarea(attrs=
+    {
+        'id': 'input',
+        'class': 'form-control input-lg',
+        'placeholder': 'Moan here...'
+    }))
     message = _('morn here')
