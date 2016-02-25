@@ -112,7 +112,7 @@ h1 {
 
 /* カスタム, iPhone Retinaディスプレイ */
 @media only screen and (max-width : 320px) {
-    h1 {font-size: 40px;}
+    h1 {font-size: 45px;}
     #microphone {top:7%;}
 
 }
