@@ -3,7 +3,7 @@
 {% load staticfiles %}
 
 {% block content %}
-  <div id="main" class="jumbotron">
+  <div id="main">
     <div class="container">
       <div class="row">
         <h1 id="title" class="centering">{% trans "Moaning<br> Programming<br> Language" %}</h1>
@@ -12,9 +12,7 @@
           {% csrf_token %}
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-{#              <a class="button" href="#">#}
-                <i id="microphone" class="fa fa-microphone fa-3x animated-hover"></i>
-{#              </a>#}
+              <i id="microphone" class="fa fa-microphone fa-3x"></i>
               {{ form.editor }}
             </div>
           </div>
@@ -35,7 +33,7 @@
   <div id="about">
     <div class="container">
       <div class="row" style="margin-bottom: 1000px">
-        <h1 class="big-font">{% trans "What is Moaning Programming Language?" %}</h1>
+        <h1>{% trans "What is Moaning Programming Language?" %}</h1>
         <p>{% trans "Moaning Programing  Language(MPL) is a programming language that you can program moaning with."%}</p>
       </div>
     </div>

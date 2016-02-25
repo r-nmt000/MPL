@@ -17,11 +17,13 @@
         recStart: function(){
             var o = this;
             App.status.nowRec = true;
+            $('#microphone').toggleClass('faa-flash animated faa-slow');
             o.recognition.start();
         },
         recStop: function(){
             var o = this;
             App.status.nowRec = false;
+            $('#microphone').toggleClass('faa-flash animated faa-slow');
             o.recognition.stop();
         },
         getRecText: function(results, resultIndex){
@@ -33,13 +35,6 @@
                 }
             }
             return text;
-        }
-    };
-    var View = {
-        getResultItem: function(text){
-            var el = document.createElement('li');
-            el.textContent = text;
-            return el;
         }
     };
     var App = {

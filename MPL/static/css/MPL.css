@@ -30,10 +30,10 @@ body > .container {
     text-align: center;
 }
 
-.jumbotron {
+#main {
     background: #f0f0f0 url("../images/two_women.png") no-repeat fixed 0 50px;
     background-size: contain;
-    margin-bottom: 0;
+    margin-top:50px;
 }
 
 #about {
@@ -42,7 +42,6 @@ body > .container {
 }
 
 #title {
-    font-size: 100px;
     color: #aaaaaa;
 }
 
@@ -53,11 +52,18 @@ body > .container {
     width: 50px;
 }
 
+.faa-bust {
+    position: absolute;
+    top: 20%;
+    right: 20px;
+    width: 50px;
+}
+
 #microphone:hover {
     color: #ac2925;
 }
 
-.big-font {
+h1 {
     font-size: 100px;
 }
 
@@ -72,7 +78,41 @@ body > .container {
 }
 
 #output {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
+/* Lサイズ、ワイドスクリーン : Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    h1 {font-size: 100px;}
+
+}
+
+/* Mサイズ、デスクトップ : Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    h1 {font-size: 100px;}
+    #microphone {top:7%;}
+
+}
+
+/* Sサイズ、タブレット : Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    h1 {font-size: 70px;}
+    #microphone {top:7%;}
+
+}
+
+/* XSサイズ : Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    h1 {font-size: 50px;}
+    #microphone {top:7%;}
+
+}
+
+/* カスタム, iPhone Retinaディスプレイ */
+@media only screen and (max-width : 320px) {
+    h1 {font-size: 40px;}
+    #microphone {top:7%;}
+
+}
