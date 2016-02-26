@@ -25,10 +25,8 @@ body > .container {
     background-size: contain;
 }
 
-#about {
-    background: #f0f0f0 url("../images/two_women2.png") no-repeat fixed 0 100px;
-    background-color: pink;
-    background-size: contain;
+#submit {
+    font-weight: bold;
 }
 
 #title {

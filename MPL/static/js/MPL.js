@@ -1,10 +1,20 @@
 (function(){
     $('#submit').on('click', function(){
         code = $('#input').val();
-        $.get("/mpl/api", {code: code}, function(data){
-            $('#output').val(data['output']);
-        });
+        $('#submit').text('');
+        $('#submit').prepend('<i></i>');
+        $('#submit i').toggleClass('fa fa-circle-o-notch faa-spin animated');
+        setTimeout(function(){
+            $.get("/mpl/api", {code: code}, function(data){
+                $('#output').val(data['output']);
+            });
+            $('#submit').text('');
+            $('#submit').prepend('<i></i>RUN');
+
+        }, 1000);
     });
+
+
     window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
     var Recorder = {
         recognition : null,
