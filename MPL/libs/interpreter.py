@@ -133,14 +133,6 @@ def main():
     oh, come_on! ah, ah, ah, come_on! oh, oh, oh, oh, oh, oh, come_on! oh, oh, oh,\
     oh, oh, oh, oh, oh, come_on! yeah! ah, come_on!'.split()
 
-    # code = ['ah,','ah,','ah,','ah,','ah,','ah,','ah,','ah,','ah,','oh_my_god!','yeah!','ah,','ah,','ah,','ah,','ah,',
-    #         'ah,','ah,','ah,','yeah!','ah,','ah,','ah,','ah,','ah,','ah,','ah,','ah,','ah,','ah,','ah,','yeah!','ah,',
-    #         'ah,','ah,','ah,','ah,','f**k!','f**k!','f**k!','oh,','god!','yeah!','come_on!','yeah!','ah,','ah,',
-    #         'come_on!','ah,','ah,','ah,','ah,','ah,','ah,','ah,','come_on!','come_on!','ah,','ah,','ah,','come_on!',
-    #         'yeah!','oh,','come_on!','oh,','oh,','oh,','oh,','oh,','oh,','oh,','oh,','oh,','oh,','oh,','oh,','come_on!',
-    #         'f**k!','ah,','ah,','ah,','ah,','ah,','ah,','ah,','ah,','come_on!','oh,','oh,','oh,','oh,','oh,','oh,','oh,',
-    #         'oh,','come_on!','ah,','ah,','ah,','come_on!','oh,','oh,','oh,','oh,','oh,','oh,','come_on!','oh,','oh,','oh,',
-    #         'oh,','oh,','oh,','oh,','oh,','come_on!','yeah!','ah,','come_on!']
     interpreter = Brainfuck()
     try:
         print(interpreter.evaluate(code))
