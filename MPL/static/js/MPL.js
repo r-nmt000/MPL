@@ -5,7 +5,7 @@
         $('#submit').prepend('<i></i>');
         $('#submit i').toggleClass('fa fa-circle-o-notch faa-spin animated');
         setTimeout(function(){
-            $.get("/mpl/api", {code: code}, function(data){
+            $.get("/api", {code: code}, function(data){
                 $('#output').val(data['output']);
             });
             $('#submit').text('');

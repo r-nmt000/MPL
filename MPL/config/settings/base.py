@@ -40,7 +40,6 @@ THIRD_PARTY_APPS = ()
 
 PROJECT_APPS = (
     'core',
-    'apps.accounts',
     'apps.mpl',
 )
 
@@ -184,10 +183,6 @@ LOGIN_REDIRECT_URL = '/'
 # https://docs.djangoproject.com/en/1.9/ref/settings/#wsgi-application
 WSGI_APPLICATION = 'config.wsgi.application'
 
-
-########## ユーザモデル設定
-# https://docs.djangoproject.com/en/1.9/ref/settings/#auth-user-model
-AUTH_USER_MODEL = 'accounts.User'
 
 
 ########## ロギング設定
