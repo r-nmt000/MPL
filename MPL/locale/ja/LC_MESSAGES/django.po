@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-05 23:35+0900\n"
+"POT-Creation-Date: 2016-02-27 17:17+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,14 +18,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps/mpl/forms.py:12
-msgid "morn here"
-msgstr ""
+#: apps/mpl/forms.py:15
+#, fuzzy
+#| msgid "morn here"
+msgid "Moan here..."
+msgstr "ここに喘いでください"
 
 #: config/settings/base.py:120
 msgid "Japanese"
 msgstr ""
 
-#: templates/index.html:4
-msgid "Moaning Programming Language"
-msgstr ""
+#: templates/index.html:8
+msgid "Moaning<br> Programming<br> Language"
+msgstr "喘ぐ<br>プログラミング言語"
+
+#: templates/index.html:9
+msgid "You moan, program moan."
+msgstr "喘いで、プログラミング。"
+
+#: templates/index.html:21
+msgid "RUN"
+msgstr "実行"
+
+#: templates/index.html:28
+msgid "output"
+msgstr "出力"

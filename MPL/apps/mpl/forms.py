@@ -12,6 +12,5 @@ class MPLForm(forms.Form):
     {
         'id': 'input',
         'class': 'form-control input-lg',
-        'placeholder': 'Moan here...'
+        'placeholder': _('Moan here...')
     }))
-    message = _('morn here')

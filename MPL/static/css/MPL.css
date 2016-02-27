@@ -21,7 +21,7 @@ body > .container {
 }
 
 #main {
-    background: #f0f0f0 url("../images/two_women.png") no-repeat fixed 0 30px;
+    background: #f0f0f0 url("../images/two_women3.png") no-repeat fixed center 30px;
     background-size: contain;
 }
 
