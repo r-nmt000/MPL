@@ -174,15 +174,10 @@ STATICFILES_DIRS = (
 ROOT_URLCONF = 'config.urls'
 
 
-########## ログイン/ログアウト設定
-# https://docs.djangoproject.com/en/1.9/ref/settings/#login-url
-LOGIN_URL = '/accounts/login/'
 
 # https://docs.djangoproject.com/en/1.9/ref/settings/#login-redirect-url
 LOGIN_REDIRECT_URL = '/'
 
-# https://docs.djangoproject.com/en/1.9/ref/settings/#logout-url
-LOGOUT_URL = '/accounts/logout/'
 
 
 ########## WSGI設定

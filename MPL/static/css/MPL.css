@@ -31,6 +31,13 @@ body > .container {
 
 #title {
     color: #aaaaaa;
+    /*font-family: "メイリオ", sans-serif;*/
+    font-family: "ヒラギノ明朝 Pro","Hiragino Mincho Pro"; font-weight: bold;
+}
+
+#subtitle {
+    /*font-family: "メイリオ", sans-serif;*/
+    font-family: "ヒラギノ明朝 Pro","Hiragino Mincho Pro"; font-weight: bold;
 }
 
 #microphone {

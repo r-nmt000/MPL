@@ -4,8 +4,9 @@
 
 from __future__ import absolute_import, division, print_function, unicode_literals
 from django.conf.urls import url
-from core import views
+from apps.mpl import views
 
 urlpatterns = [
-    url(r'^$', views.HomeListView.as_view(), name='home'),
+    url(r'^main$', views.MPLView.as_view(), name='main'),
+    url(r'^api$', views.APIView.as_view(), name='api')
 ]
