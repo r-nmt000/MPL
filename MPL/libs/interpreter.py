@@ -24,6 +24,15 @@ class Brainfuck(object):
     LOOP_START = 'oh_my_god!'
     LOOP_END = 'god!'
 
+    INCREMENT_JA = 'もっと!'
+    DECREMENT_JA = 'いくっ'
+    INCREMENT_POINTER_JA = 'あんっ'
+    DECREMENT_POINTER_JA = 'あっ'
+    WRITE_JA = 'だめっ!'
+    READ_JA = 'んん...'
+    LOOP_START_JA = 'いやんっ'
+    LOOP_END_JA = 'ああんっ!'
+
     def __init__(self):
         self._token_mappings = {
             self.INCREMENT: self._increment,
@@ -34,6 +43,14 @@ class Brainfuck(object):
             self.READ: self._read,
             self.LOOP_START: self._loop_start,
             self.LOOP_END: self._loop_end,
+            self.INCREMENT_JA: self._increment,
+            self.DECREMENT_JA: self._decrement,
+            self.INCREMENT_POINTER_JA: self._increment_pointer,
+            self.DECREMENT_POINTER_JA: self._decrement_pointer,
+            self.WRITE_JA: self._write,
+            self.READ_JA: self._read,
+            self.LOOP_START_JA: self._loop_start,
+            self.LOOP_END_JA: self._loop_end,
         }
         self._brace_mappings = {}
         self._pointer = 0
@@ -106,10 +123,10 @@ class Brainfuck(object):
     def _initialize_brace_mappings(self, code):
         start_brace_positions = []
         for i, token in enumerate(code):
-            if token not in [self.LOOP_START, self.LOOP_END]:
+            if token not in [self.LOOP_START, self.LOOP_END, self.LOOP_START_JA, self.LOOP_END_JA]:
                 # '[' と ']' 以外は無視する
                 continue
-            if token == self.LOOP_START:
+            if token == self.LOOP_START or token == self.LOOP_START_JA:
                 # '[' のあった位置をスタックにプッシュする
                 start_brace_positions.append(i)
             else:

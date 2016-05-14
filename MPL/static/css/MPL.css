@@ -23,6 +23,24 @@ body > .container {
 #main {
     background: #f0f0f0 url("../images/two_women3.png") no-repeat fixed center 30px;
     background-size: contain;
+    height: 900px;
+
+}
+
+#how-to-use {
+    background: #ffd9e9 url("../images/two_women2.png") no-repeat fixed center 100px;
+    background-size: contain;
+    height: 800px;
+}
+
+#hello-world {
+    background: lightyellow url("../images/two_women3.png") no-repeat fixed center 30px;
+    background-size: contain;
+    height: 700px;
+}
+
+#hello-world-title {
+    height: 300px;
 }
 
 #submit {
@@ -31,18 +49,29 @@ body > .container {
 
 #title {
     color: #aaaaaa;
-    /*font-family: "メイリオ", sans-serif;*/
     font-family: "ヒラギノ明朝 Pro","Hiragino Mincho Pro"; font-weight: bold;
 }
 
+#table {
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 #subtitle {
-    /*font-family: "メイリオ", sans-serif;*/
     font-family: "ヒラギノ明朝 Pro","Hiragino Mincho Pro"; font-weight: bold;
+}
+
+
+#specification {
+    font-family: "ヒラギノ明朝 Pro","Hiragino Mincho Pro"; font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #microphone {
     position: absolute;
-    top: 20%;
+    top: 11px;
     right: 20px;
     width: 50px;
 }
@@ -71,13 +100,13 @@ p {
 }
 
 #input {
-    margin-top: 50px;
+    /*margin-top: 5%;*/
     margin-bottom: 20px;
 
 }
 
 #output {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
 
 }
@@ -110,6 +139,8 @@ p {
 @media only screen and (max-width : 480px) {
     h1 {font-size: 5rem;}
     p {font-size: 1.6rem;}
+    #main { height:700px;}
+    #how-to-use { height:1100px;}
     #microphone {top:7%;}
 
 }
@@ -118,6 +149,8 @@ p {
 @media only screen and (max-width : 320px) {
     h1 {font-size: 4.5rem;}
     p {font-size: 1.6rem;}
+    #main { height:700px;}
+    #how-to-use { height:1100px;}
     #microphone {top:7%;}
 
 }

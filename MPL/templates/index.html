@@ -30,4 +30,80 @@
       </div>
     </div>
   </div>
+  <div id="how-to-use">
+    <div class="container">
+      <div class="row">
+        <h1 id="specification" class="big-font centering">{% trans "How to moan?" %}</h1>
+        <p class="centering">{% trans "Moaning Programing  Language(MPL) is a Brainfuck equivalent that you can program moaning with." %}</p>
+        <p class="centering">{% trans "MPL command mappings are below. Enjoy moaning!" %}</p>
+      </div>
+      <div class="row">
+        <table id="table" class="table  table-striped table-bordered">
+          <thead class="thead-inverse">
+          <tr>
+            <th>{% trans "Word" %}</th>
+            <th>{% trans "Brainfxxk" %}</th>
+            <th>{% trans "Explanation" %}</th>
+          </tr>
+          </thead>
+          <tbody>
+            <tr class="table">
+              <td>{% trans "yeah!" %}</td>
+              <td>&gt;</td>
+              <td>{% trans "Increment the pointer." %}</td>
+            </tr>
+            <tr>
+              <td>{% trans "f**k!" %}</td>
+              <td>&gt;</td>
+              <td>{% trans "Decrement the pointer." %}</td>
+            </tr>
+            <tr>
+              <td>{% trans "ah," %}</td>
+              <td>+</td>
+              <td>{% trans  "Increment the value at the pointer." %}</td>
+            </tr>
+            <tr>
+              <td>{% trans "oh," %}</td>
+              <td>-</td>
+              <td>{% trans "Decrement the value at the pointer." %}</td>
+            </tr>
+            <tr>
+              <td>{% trans "come_on!" %}</td>
+              <td>.</td>
+              <td>{% trans "Output a byte at the pointer." %}</td>
+            </tr>
+            <tr>
+              <td>{% trans "mm..." %}</td>
+              <td>,</td>
+              <td>{% trans "Input a byte and store it in the byte at the pointer." %}</td>
+            </tr>
+            <tr>
+              <td>{% trans "oh_my_god!" %}</td>
+              <td>[</td>
+              <td>{% trans "Jump forward past the matching ] if if the byte at the pointer is zero." %}</td>
+            </tr>
+            <tr>
+              <td>{% trans "god!" %}</td>
+              <td>]</td>
+              <td>{% trans "Jump backward to the matching ] unless the byte at the pointer is zero." %}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div id="hello-world">
+    <div class="container">
+      <div class="row">
+        <h1 id="hello-world-title" class="big-font centering">{% trans "Hello world" %}</h1>
+        <p class="centering">{% trans "Want to try right now? This is Hello world script!" %}</p>
+      </div>
+      <div class="row">
+      <div class="form-group">
+          <textarea readonly class="form-control" rows="10" id="comment">{% trans "ah, ah, ah, ah, ah, ah, ah, ah, ah, oh_my_god! yeah! ah, ah, ah, ah, ah, ah, ah, ah, yeah! ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, yeah! ah, ah, ah, ah, ah, f**k! f**k! f**k! oh, god! yeah! come_on! yeah! ah, ah, come_on! ah, ah, ah, ah, ah, ah, ah, come_on! come_on! ah, ah, ah, come_on! yeah! oh, come_on! oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, come_on! f**k! ah, ah, ah, ah, ah, ah, ah, ah, come_on! oh, oh, oh, oh, oh, oh, oh, oh, come_on! ah, ah, ah, come_on! oh, oh, oh, oh, oh, oh, come_on! oh, oh, oh, oh, oh, oh, oh, oh, come_on! yeah! ah, come_on!" %}
+          </textarea>
+      </div>
+    </div>
+  </div>
 {% endblock content %}

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-27 17:55+0900\n"
+"POT-Creation-Date: 2016-05-14 17:30+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Moan here..."
 msgstr "ここに喘いでください"
 
-#: config/settings/base.py:120
+#: config/settings/base.py:119
 msgid "Japanese"
 msgstr ""
 
@@ -41,3 +41,119 @@ msgstr "実行"
 #: templates/index.html:28
 msgid "output"
 msgstr "出力"
+
+#: templates/index.html:36
+msgid "How to moan?"
+msgstr "喘ぎ方"
+
+#: templates/index.html:37
+msgid "Moaning Programing  Language(MPL) is a Brainfuck equivalent that you can program moaning with."
+msgstr "喘ぐプログラミング言語はBrainfuckの拡張言語です。"
+
+#: templates/index.html:38
+msgid "MPL command mappings are below. Enjoy moaning!"
+msgstr "喘ぎ声と各コマンドのマッピングは次のとおりです。"
+
+#: templates/index.html:44
+msgid "Word"
+msgstr "単語"
+
+#: templates/index.html:45
+msgid "Brainfxxk"
+msgstr "Brainfxxk"
+
+#: templates/index.html:46
+msgid "Explanation"
+msgstr "説明"
+
+#: templates/index.html:51
+msgid "yeah!"
+msgstr "もっと!"
+
+#: templates/index.html:53
+msgid "Increment the pointer."
+msgstr "ポインタの位置を前に１ずらす。"
+
+#: templates/index.html:56
+msgid "f**k!"
+msgstr "いくっ"
+
+#: templates/index.html:58
+msgid "Decrement the pointer."
+msgstr "ポインタの位置を後ろに１ずらす。"
+
+#: templates/index.html:61
+msgid "ah,"
+msgstr "あんっ"
+
+#: templates/index.html:63
+msgid "Increment the value at the pointer."
+msgstr "ポインタの指す値を１増やす。"
+
+#: templates/index.html:66
+msgid "oh,"
+msgstr "あっ"
+
+#: templates/index.html:68
+msgid "Decrement the value at the pointer."
+msgstr "ポインタの指す値を１減らす。"
+
+#: templates/index.html:71
+msgid "come_on!"
+msgstr "だめっ!"
+
+#: templates/index.html:73
+msgid "Output a byte at the pointer."
+msgstr "ポインタの指す値を出力する。"
+
+#: templates/index.html:76
+msgid "mm..."
+msgstr "んん..."
+
+#: templates/index.html:78
+msgid "Input a byte and store it in the byte at the pointer."
+msgstr "入力から１バイト読みこんでポインタの指す先に代入する。"
+
+#: templates/index.html:81
+msgid "oh_my_god!"
+msgstr "いやんっ"
+
+#: templates/index.html:83
+msgid "Jump forward past the matching ] if if the byte at the pointer is zero."
+msgstr "ポインタが指す値が0なら対応する ]の直後にジャンプする。"
+
+#: templates/index.html:86
+msgid "god!"
+msgstr "ああんっ!"
+
+#: templates/index.html:88
+msgid "Jump backward to the matching ] unless the byte at the pointer is zero."
+msgstr "ポインタが指す値が0でないなら対応する]にジャンプする。"
+
+#: templates/index.html:97
+msgid "Hello world"
+msgstr "Hello world"
+
+#: templates/index.html:98
+msgid "Want to try right now? This is Hello world script!"
+msgstr "Hello worldスクリプトは次のとおりです。"
+
+#: templates/index.html:102
+msgid ""
+"ah, ah, ah, ah, ah, ah, ah, ah, ah, oh_my_god! yeah! ah, ah, ah, ah, ah, ah, "
+"ah, ah, yeah! ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, yeah! ah, ah, ah, "
+"ah, ah, f**k! f**k! f**k! oh, god! yeah! come_on! yeah! ah, ah, come_on! ah, "
+"ah, ah, ah, ah, ah, ah, come_on! come_on! ah, ah, ah, come_on! yeah! oh, "
+"come_on! oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, come_on! f**k! ah, "
+"ah, ah, ah, ah, ah, ah, ah, come_on! oh, oh, oh, oh, oh, oh, oh, oh, "
+"come_on! ah, ah, ah, come_on! oh, oh, oh, oh, oh, oh, come_on! oh, oh, oh, "
+"oh, oh, oh, oh, oh, come_on! yeah! ah, come_on!"
+msgstr ""
+"あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ いやんっ もっと! あんっ あんっ あんっ あんっ あんっ あんっ "
+"あんっ あんっ もっと! あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ もっと! あんっ あんっ あんっ "
+"あんっ あんっ いくっ いくっ いくっ あっ ああんっ! もっと! だめっ! もっと! あんっ あんっ だめっ! あんっ "
+"あんっ あんっ あんっ あんっ あんっ あんっ だめっ! だめっ! あんっ あんっ あんっ だめっ! もっと! あっ "
+"だめっ! あっ あっ あっ あっ あっ あっ あっ あっ あっ あっ あっ あっ だめっ! いくっ あんっ "
+"あんっ あんっ あんっ あんっ あんっ あんっ あんっ だめっ! あっ あっ あっ あっ あっ あっ あっ あっ "
+"だめっ! あんっ あんっ あんっ だめっ! あっ あっ あっ あっ あっ あっ だめっ! あっ あっ あっ "
+"あっ あっ あっ あっ あっ だめっ! もっと! あんっ だめっ!"
