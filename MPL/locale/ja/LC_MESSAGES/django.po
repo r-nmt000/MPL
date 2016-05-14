@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-14 17:30+0900\n"
+"POT-Creation-Date: 2016-05-14 22:51+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,7 +47,9 @@ msgid "How to moan?"
 msgstr "喘ぎ方"
 
 #: templates/index.html:37
-msgid "Moaning Programing  Language(MPL) is a Brainfuck equivalent that you can program moaning with."
+msgid ""
+"Moaning Programing  Language(MPL) is a Brainfuck equivalent that you can "
+"program moaning with."
 msgstr "喘ぐプログラミング言語はBrainfuckの拡張言語です。"
 
 #: templates/index.html:38
@@ -127,18 +129,18 @@ msgid "god!"
 msgstr "ああんっ!"
 
 #: templates/index.html:88
-msgid "Jump backward to the matching ] unless the byte at the pointer is zero."
-msgstr "ポインタが指す値が0でないなら対応する]にジャンプする。"
+msgid "Jump backward to the matching [ unless the byte at the pointer is zero."
+msgstr "ポインタが指す値が0でないなら対応する[にジャンプする。"
 
-#: templates/index.html:97
+#: templates/index.html:99
 msgid "Hello world"
 msgstr "Hello world"
 
-#: templates/index.html:98
+#: templates/index.html:100
 msgid "Want to try right now? This is Hello world script!"
 msgstr "Hello worldスクリプトは次のとおりです。"
 
-#: templates/index.html:102
+#: templates/index.html:104
 msgid ""
 "ah, ah, ah, ah, ah, ah, ah, ah, ah, oh_my_god! yeah! ah, ah, ah, ah, ah, ah, "
 "ah, ah, yeah! ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, yeah! ah, ah, ah, "
@@ -149,11 +151,14 @@ msgid ""
 "come_on! ah, ah, ah, come_on! oh, oh, oh, oh, oh, oh, come_on! oh, oh, oh, "
 "oh, oh, oh, oh, oh, come_on! yeah! ah, come_on!"
 msgstr ""
-"あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ いやんっ もっと! あんっ あんっ あんっ あんっ あんっ あんっ "
-"あんっ あんっ もっと! あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ もっと! あんっ あんっ あんっ "
-"あんっ あんっ いくっ いくっ いくっ あっ ああんっ! もっと! だめっ! もっと! あんっ あんっ だめっ! あんっ "
-"あんっ あんっ あんっ あんっ あんっ あんっ だめっ! だめっ! あんっ あんっ あんっ だめっ! もっと! あっ "
-"だめっ! あっ あっ あっ あっ あっ あっ あっ あっ あっ あっ あっ あっ だめっ! いくっ あんっ "
-"あんっ あんっ あんっ あんっ あんっ あんっ あんっ だめっ! あっ あっ あっ あっ あっ あっ あっ あっ "
-"だめっ! あんっ あんっ あんっ だめっ! あっ あっ あっ あっ あっ あっ だめっ! あっ あっ あっ "
-"あっ あっ あっ あっ あっ だめっ! もっと! あんっ だめっ!"
+"あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ いやんっ もっ"
+"と! あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ もっと! あんっ あ"
+"んっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ もっと! "
+"あんっ あんっ あんっ あんっ あんっ いくっ いくっ いくっ あっ ああんっ! もっ"
+"と! だめっ! もっと! あんっ あんっ だめっ! あんっ あんっ あんっ あんっ あんっ "
+"あんっ あんっ だめっ! だめっ! あんっ あんっ あんっ だめっ! もっと! あっ だ"
+"めっ! あっ あっ あっ あっ あっ あっ あっ あっ あっ あっ あっ あっ だめっ! い"
+"くっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ あんっ だめっ! あっ "
+"あっ あっ あっ あっ あっ あっ あっ だめっ! あんっ あんっ あんっ だめっ! あっ "
+"あっ あっ あっ あっ あっ だめっ! あっ あっ あっ あっ あっ あっ あっ あっ だ"
+"めっ! もっと! あんっ だめっ!"
